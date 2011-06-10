@@ -1,0 +1,4 @@
+build_*
+lib
+upstream
+c-ares-*.tar.gz
