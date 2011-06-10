@@ -1,0 +1,4 @@
+#!/usr/bin/env mkb
+option lib
+target cares
+subproject c-ares

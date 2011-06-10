@@ -1,0 +1,7 @@
+[s3e]
+SysStackSize=100000
+[commandline]
+argv[1]="ideaworks3d.com"
+[trace]
+FIBRE=1
+

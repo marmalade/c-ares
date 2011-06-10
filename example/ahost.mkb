@@ -1,0 +1,14 @@
+#!/usr/bin/env mkb
+package c-ares
+subproject c-ares
+
+defines
+{
+    DEBUGBUILD
+    HAVE_CONFIG_H
+}
+
+files
+{
+    ahost.c
+}
