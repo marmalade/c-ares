@@ -2,3 +2,5 @@ build_*
 lib
 upstream
 c-ares-*.tar.gz
+c-ares_*.mdev
+c-ares_*.msrc

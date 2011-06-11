@@ -1,6 +1,6 @@
 upstream
 {
-	url="http://source.ideaworks3d.com/upstream/c-ares-1.7.3.tar.gz"
+	url="http://source.madewithmarmalade.com/upstream/c-ares-1.7.3.tar.gz"
 }
 
 define HAVE_CONFIG_H
