@@ -1,8 +1,9 @@
 Package: c-ares
 Version: 1.7.3
-Revision: 2
+Revision: 3
 Maintainer: Marmalade Package Team <packages@ideaworkslabs.com>
 Mkbs: c-ares.mkb
+Libraries: cares
 Homepage: http://c-ares.haxx.se/
 Description:
   c-ares is a C library that performs DNS requests
@@ -13,10 +14,7 @@ Contents:
  - upstream/ares_version.h : h/ares_version.h
  - upstream/ares.h         : h/ares.h
  - upstream/ares_rules.h   : h/ares_rules.h
- - lib/arm/cares_d.a
- - lib/arm/libcares.a
- - lib/arm/libcares_d.a
-Contents-src:
+Contents-Source:
  - c-ares.mkf
  - c-ares.mkb
  - ares_config.h
@@ -25,13 +23,3 @@ Contents-src:
  - example/ahost.mkb
  - example/data/app.icf
  - example/data/etc/resolv.conf
-Contents-platform:
-  win32:
-    - lib/x86/cares.lib
-    - lib/x86/cares_d.lib
-  linux:
-    - lib/x86/linux/libcares.a
-    - lib/x86/linux/libcares_d.a
-  macosx:
-    - lib/x86/darwin/libcares.a
-    - lib/x86/darwin/libcares_d.a
