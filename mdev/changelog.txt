@@ -1,0 +1,5 @@
+c-ares (1.7.3-4)
+
+  * rebuild with new SDK to include mips libraries.
+
+ -- Sam Clegg <sam@marmalademail.com>  Tue, 02 Aug 2011 23:13:51 +0000
